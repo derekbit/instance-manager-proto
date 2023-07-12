@@ -2,7 +2,7 @@ syntax="proto3";
 
 package imrpc;
 
-import "google/protobuf/empty.proto";
+import "proto/vendor/protobuf/src/google/protobuf/empty.proto";
 
 service DiskService {
     rpc DiskCreate(DiskCreateRequest) returns (Disk);

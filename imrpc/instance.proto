@@ -2,9 +2,9 @@ syntax="proto3";
 
 package imrpc;
 
-import "google/protobuf/empty.proto";
-import "common.proto";
-import "imrpc.proto";
+import "proto/vendor/protobuf/src/google/protobuf/empty.proto";
+import "imrpc/common.proto";
+import "imrpc/imrpc.proto";
 
 service InstanceService {
 	rpc InstanceCreate(InstanceCreateRequest) returns (InstanceResponse) {}

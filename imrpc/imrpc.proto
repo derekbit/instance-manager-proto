@@ -1,6 +1,6 @@
 syntax="proto3";
 
-import "google/protobuf/empty.proto";
+import "proto/vendor/protobuf/src/google/protobuf/empty.proto";
 
 service ProcessManagerService {
 	rpc ProcessCreate(ProcessCreateRequest) returns (ProcessResponse) {}

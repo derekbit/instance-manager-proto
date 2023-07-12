@@ -2,10 +2,10 @@ syntax="proto3";
 
 package imrpc;
 
-import "google/protobuf/empty.proto";
-import "proto/ptypes/controller.proto";
-import "proto/ptypes/syncagent.proto";
-import "common.proto";
+import "proto/vendor/protobuf/src/google/protobuf/empty.proto";
+import "proto/vendor/github.com/longhorn/longhorn-engine/proto/ptypes/controller.proto";
+import "proto/vendor/github.com/longhorn/longhorn-engine/proto/ptypes/syncagent.proto";
+import "imrpc/common.proto";
 
 
 service ProxyEngineService {
